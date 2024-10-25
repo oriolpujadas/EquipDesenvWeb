@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./index.js" type="text/javascript">  </script>
+    <link rel="stylesheet" href="index.css">
+    <title>MEMORY</title>
+</head>
+
+<body>
+    <header>
+        <h1>MEMORY</h1>
+    </header>
+    <button onclick="ompleCaixa(16,girada,img)">START</button>
+    <div id="scoreContainer">
+      <div id="score">0</div>
+    </div>
+    <main>
+        <div class="taula">
+            <div class="fila">
+              <div id="0" class="caixa"onclick="toggleImg(this.id,girada,img)"></div>
+              <div id="1" class="caixa"onclick="toggleImg(this.id,girada,img)"></div>
+              <div  id="2"class="caixa"onclick="toggleImg(this.id,girada,img)"></div>
+              <div  id="3"class="caixa"onclick="toggleImg(this.id,girada,img)"></div>
+            </div>
+            <div class="fila2">
+              <div id="0" class="back"></div>
+              <div id="1" class="back"></div>
+              <div  id="2"class="back"></div>
+              <div  id="3"class="back"></div>
+            </div>
+            <div class="fila">
+              <div id="4" class="caixa" onclick="toggleImg(this.id,girada,img)"></div>
+              <div id="5" class="caixa" onclick="toggleImg(this.id,girada,img)"></div>
+              <div  id="6"class="caixa" onclick="toggleImg(this.id,girada,img)"></div>
+              <div  id="7" class="caixa" onclick="toggleImg(this.id,girada,img)"></div>
+            </div>
+            <div class="fila2">
+              <div id="4" class="back"></div>
+              <div id="5" class="back"></div>
+              <div  id="6"class="back"></div>
+              <div  id="7"class="back"></div>
+            </div>
+            <div class="fila">
+              <div id="8" class="caixa"onclick="toggleImg(this.id,girada,img)"></div>
+              <div id="9" class="caixa"onclick="toggleImg(this.id,girada,img)"></div>
+              <div  id="10"class="caixa"onclick="toggleImg(this.id,girada,img)"></div>
+              <div id="11"class="caixa"onclick="toggleImg(this.id,girada,img)"></div>
+            </div>
+            <div class="fila2">
+              <div id="8" class="back"></div>
+              <div id="9" class="back"></div>
+              <div  id="10"class="back"></div>
+              <div  id="11"class="back"></div>
+            </div>
+            <div class="fila">
+              <div  id="12"class="caixa"onclick="toggleImg(this.id,girada,img)"></div>
+              <div id="13"class="caixa"onclick="toggleImg(this.id,girada,img)"></div>
+              <div id="14"class="caixa"onclick="toggleImg(this.id,girada,img)"></div>
+              <div  id="15"class="caixa"onclick="toggleImg(this.id,girada,img)"></div>
+            </div>
+            <div class="fila2">
+              <div id="12" class="back"></div>
+              <div id="13" class="back"></div>
+              <div  id="14"class="back"></div>
+              <div  id="15"class="back"></div>
+            </div>
+          </div>  
+    </main>
+</body>
+</html>
