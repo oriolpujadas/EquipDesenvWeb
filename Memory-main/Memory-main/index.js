@@ -39,7 +39,7 @@ function ompleCaixa(vegades,girada,img){
       }while(contCartes[pos] >= 2)
 
          contCartes[pos]++;
-         v[i].innerHTML = '<img src="./img/Basketball.png" alt="reverso carta" height="120px" width="115px"></img>';
+         v[i].innerHTML = '<img src="./img/fresa.png" alt="reverso carta" height="120px" width="115px"></img>';
          girada[i] = 0;
 
     }
