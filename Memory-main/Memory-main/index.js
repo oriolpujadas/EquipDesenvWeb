@@ -122,12 +122,12 @@ function toggleImg(id,girada,img){
  function assignaCarta(id){
 
    var carta = document.getElementsByClassName('caixa');
-   var pos;
+   var posicio;
 
    for (var i = 0; i <= 16; i++) {
 
-      pos = Math.floor(Math.random() * 17);
-      carta[pos]
+      posicio = Math.floor(Math.random() * 17);
+      carta[posicio]
 
 
    }
